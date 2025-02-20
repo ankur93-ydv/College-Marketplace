@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe5b4;
+}
+
+header {
+    background-color: #005b5c;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.icon{
+    background-color: #28a745;
+    height:40px;
+    width:100px;
+}
+
+.category{
+    height:34px;
+}
+
+#search {
+    padding: 8px;
+    width: 50%;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #008c8f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product h3 {
+    margin: 0;
+}

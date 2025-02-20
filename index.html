@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Buy & Sell</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="project.js"></script>
+</head>
+<body>
+    <header>
+        <h1>College Marketplace</h1>
+        <select name="category" class="category">
+            <option>Select</option>
+            <option>📚 Books & Study Materials</option>
+            <option>💻 Electronics & Gadgets</option>
+            <option> Accessories</option>
+            <option>Event Tickets</option>
+            <option>Miscellaneous</option>
+        </select>
+        <input type="text" id="search" placeholder="Search products...." onkeyup="searchProducts()">
+        <button onclick="searchProducts()">Search</button>
+        <button onclick="openForm()">Sell a Product</button>
+    </header>
+    <section id="product-list"></section>
+    <div id="product-form" class="hidden">
+        <h2>Sell a Product</h2>
+        <input type="text" id="title" placeholder="Product Title">
+        <input type="text" id="price" placeholder="Price">
+        <input type="text" id="contact" placeholder="Contact Info">
+        <button onclick="addProduct()">Add Product</button>
+        <button onclick="closeForm()">Close</button>
+    </div>
+</body>
+</html>

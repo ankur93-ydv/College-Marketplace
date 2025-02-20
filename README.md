@@ -33,10 +33,5 @@ Since this is a frontend-only project, you can run it by simply opening the `ind
 ## Contributing
 Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
 
-## License
-This project is licensed under the MIT License.
-
----
-
-Made with ❤️ for students, by students.
+Made with ❤️ for students, by Ankur Yadav.
 
